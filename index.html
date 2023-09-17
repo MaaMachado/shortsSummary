@@ -4,17 +4,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Estabelece a conexão com a Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+  <!-- Traz a fonte para a aplicação -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="/logo.svg" />
   <!-- http://localhost:5173/ -->
   <title>Shorts Summary</title>
 </head>
 
 <body>
 
+  <div id="app">
+    <img src="/logo.svg" alt="Logo">
+    <h1>Shorts Summary</h1>
+
+    <form id="form">
+      <input type="url" id="url" placeholder="URL do vídeo">
+      <!-- 'title' é um jeito de falar para o usuário para que serve o local que ele parou o mouse encima = recado -->
+      <button title="Resumir">
+        <!-- https://phosphoricons.com/ -->
+        <i class="ph ph-play"></i>
+      </button>
+    </form>
+
+    <h2>Resumo</h2>
+    <p class="placeholder" id="content">Escolha um short para resumir</p>
+  </div>
+
   <script type="module" src="/web/main.js"></script>
+  <!-- Para conseguir o icon: -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
 </body>
 

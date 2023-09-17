@@ -1,0 +1,92 @@
+body {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  /* verticalmente */
+  justify-content: center;
+  /* horizontalmente */
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: #121214;
+  color: #fff;
+}
+body,
+button,
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#app > h1 {
+  color: #996dff;
+  margin-top: -5px;
+}
+#app > img {
+  width: 64px;
+}
+
+#form {
+  margin-top: 64px;
+  display: flex;
+  /* 'gap' faz espaçamento entre os elementos */
+  gap: 12px;
+}
+#form > input {
+  height: 48px;
+  width: 450px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 12px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #202024;
+
+  &:focus {
+    outline: 2px solid #8257e5;
+  }
+  &:valid {
+    background-color: #202024;
+  }
+}
+#form > button {
+  height: 48px;
+  width: 48px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8257e5;
+
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: #633bbc;
+  }
+}
+#form > button i {
+  font-size: 24px;
+  color: #fff;
+}
+
+#app > h2 {
+  align-self: flex-start;
+  margin-top: 104px;
+}
+#app > p {
+  align-self: flex-start;
+  text-align: justify;
+  width: 512px;
+}
+#app .placeholder {
+  color: #7c7c8a;
+  user-select: none;
+}
