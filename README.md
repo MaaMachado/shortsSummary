@@ -10,7 +10,10 @@ Reprodução desenvolvida durante a trilha Foundations na edição NLW IA - Rock
 
 ## ✨ Visão Geral:
 
-Shorts Summary é uma aplicação web que utiliza Inteligência Artificial para transcrever e resumir vídeos curtos do YouTube. Esta aplicação foi inspirada nas aulas disponíveis na trilha Foundations da NLW IA, oferecida pela Rocketseat, e foi recriada pela desenvolvedora com base nos conhecimentos adquiridos durante o curso.
+Shorts Summary é uma aplicação web que utiliza Inteligência Artificial para transcrever e resumir vídeos curtos do YouTube. Esta aplicação foi inspirada nas aulas disponíveis na trilha Foundations da NLW IA, oferecida pela Rocketseat, e foi recriada pela desenvolvedora com base nos conhecimentos adquiridos durante o curso. As inteligências artificiais usadas nesse projeto são a **Whisper**, que é de reconhecimento automático de fala (ASR), e o **Bart**, que é modelo de resumo de texto.
+
+- É necessário abrir o terminal node e digitar 'npm run server' e no terminal bash: 'npm run web' para rodar todo o sistema;
+- Passo a passo no arquivo Notion: https://efficient-sloth-d85.notion.site/Trilha-Foundations-84fce8e01a1a42a296a86425c7e2a473 
 
 ---
 
@@ -24,7 +27,7 @@ Shorts Summary é uma aplicação web que utiliza Inteligência Artificial para 
 
 ## 💻Tecnologias utilizadas:
 
-- **Figma**;
+- **Figma** - **Notion**;
 - **HTML 5**;
 - **CSS3**;
 - **JavaScript**;
