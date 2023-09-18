@@ -4,7 +4,7 @@ import { summaryExample } from "./utils/summary.js"
 
 export async function summarize(text) {
   try {
-    return summaryExample
+    // return summaryExample
 
     console.log("Realizando o resumo...")
 
