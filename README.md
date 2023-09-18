@@ -38,8 +38,8 @@ Para rodar o servidor é necessário colocar:
   npm run server
 ```
 
-O sistema realiza as solicitações necessárias, processa, baixa o vídeo escolhido e envia o resumo de volta para o usuário, cumprindo as etapas fundamentais com êxito.
-Para aprimorar esse sistema, será necessário aprofundar meu conhecimento no assunto e investigar a integração das inteligências artificiais. Embora eu tenha seguido cuidadosamente todas as instruções fornecidas na trilha Foundations durante a edição NLW IA - Rocketseat, a resolução desse problema específico requer uma análise mais detalhada.
+O sistema realiza as solicitações necessárias, processa, baixa o vídeo escolhido e envia o resumo de volta para o usuário, cumprindo as etapas fundamentais com êxito. <br>
+Para aprimorar esse sistema, será necessário aprofundar meu conhecimento no assunto e investigar a integração das inteligências artificiais.
 
 ---
 
